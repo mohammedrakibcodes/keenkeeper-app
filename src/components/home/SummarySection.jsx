@@ -1,26 +1,30 @@
 import SummaryCard from "./SummaryCard";
+import { getSummaryStats } from "../../utils/stats";
 
-function SummarySection() {
+function SummarySection({ friends }) {
+  const { totalFriends, onTrack, needAttention, totalInteractions } =
+    getSummaryStats(friends);
+
   const stats = [
     {
       id: 1,
       title: "Total Friends",
-      value: 10,
+      value: totalFriends,
     },
     {
       id: 2,
       title: "On Track",
-      value: 3,
+      value: onTrack,
     },
     {
       id: 3,
       title: "Need Attention",
-      value: 6,
+      value: needAttention,
     },
     {
       id: 4,
-      title: "Interactions This Month",
-      value: 12,
+      title: "Interactions",
+      value: totalInteractions,
     },
   ];
 
