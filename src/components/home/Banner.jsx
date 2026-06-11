@@ -14,7 +14,7 @@ function Banner() {
         <button className="mt-8 inline-flex items-center gap-2 rounded-md bg-[#316351] px-5 py-3 font-semibold text-white transition hover:opacity-90">
           <lord-icon
             src="https://cdn.lordicon.com/efxgwrkc.json"
-            trigger="hover"
+            trigger="loop"
             style={{
               width: "20px",
               height: "20px",

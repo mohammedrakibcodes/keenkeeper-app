@@ -19,8 +19,7 @@ function Timeline() {
           <div className="rounded-2xl border border-slate-200 bg-white p-12 text-center">
             <lord-icon
               src="https://cdn.lordicon.com/juujmrhr.json"
-              trigger="hover"
-              state="hover-error-2"
+              trigger="in"
               style={{ width: "120px", height: "120px" }}
             ></lord-icon>
 
@@ -69,7 +68,7 @@ function Timeline() {
                 {item.type === "Call" && (
                   <lord-icon
                     src="https://cdn.lordicon.com/wtywrnoz.json"
-                    trigger="hover"
+                    trigger="in"
                     style={{
                       width: "42px",
                       height: "42px",
@@ -80,7 +79,7 @@ function Timeline() {
                 {item.type === "Text" && (
                   <lord-icon
                     src="https://cdn.lordicon.com/bpptgtfr.json"
-                    trigger="hover"
+                    trigger="in"
                     style={{
                       width: "42px",
                       height: "42px",
@@ -91,7 +90,7 @@ function Timeline() {
                 {item.type === "Video" && (
                   <lord-icon
                     src="https://cdn.lordicon.com/zczzhvwa.json"
-                    trigger="hover"
+                    trigger="in"
                     state="hover-videocam-2"
                     style={{
                       width: "42px",

@@ -108,7 +108,7 @@ function FriendDetails() {
           <button className="btn h-14 w-full border-slate-200 bg-white text-red-500">
             <lord-icon
               src="https://cdn.lordicon.com/oqeixref.json"
-              trigger="hover"
+              trigger="in"
               colors="primary:#ef4444,secondary:#ef4444"
               style={{
                 width: "22px",
@@ -171,7 +171,7 @@ function FriendDetails() {
               >
                 <lord-icon
                   src="https://cdn.lordicon.com/wtywrnoz.json"
-                  trigger="hover"
+                  trigger="in"
                   style={{
                     width: "36px",
                     height: "36px",
@@ -187,7 +187,7 @@ function FriendDetails() {
               >
                 <lord-icon
                   src="https://cdn.lordicon.com/bpptgtfr.json"
-                  trigger="hover"
+                  trigger="in"
                   style={{
                     width: "36px",
                     height: "36px",
@@ -203,7 +203,7 @@ function FriendDetails() {
               >
                 <lord-icon
                   src="https://cdn.lordicon.com/zczzhvwa.json"
-                  trigger="hover"
+                  trigger="in"
                   state="hover-videocam-2"
                   style={{
                     width: "36px",

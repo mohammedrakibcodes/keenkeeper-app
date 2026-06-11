@@ -47,7 +47,7 @@ function Navbar() {
                   <>
                     <lord-icon
                       src={item.icon}
-                      trigger="hover"
+                      trigger="in"
                       style={{
                         width: "25px",
                         height: "25px",
