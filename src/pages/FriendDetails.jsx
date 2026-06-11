@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
 import { IoArchiveOutline } from "react-icons/io5";
+import { toast } from "react-toastify";
+import { saveTimeline } from "../utils/timeline";
 
 function FriendDetails() {
   const { id } = useParams();
@@ -17,6 +19,24 @@ function FriendDetails() {
         setFriend(selectedFriend);
       });
   }, [id]);
+
+  const handleCheckIn = (type) => {
+    const entry = {
+      id: Date.now(),
+      type,
+      friendName: friend.name,
+      date: new Date().toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      }),
+      title: `${type} with ${friend.name}`,
+    };
+
+    saveTimeline(entry);
+
+    toast.success(`${type} logged successfully`);
+  };
 
   if (!friend) {
     return (
@@ -145,7 +165,10 @@ function FriendDetails() {
             <h3 className="mb-6 text-3xl font-semibold">Quick Check-In</h3>
 
             <div className="grid gap-4 md:grid-cols-3">
-              <button className="flex h-28 flex-col items-center justify-center rounded-xl border border-slate-200 transition hover:bg-slate-50">
+              <button
+                onClick={() => handleCheckIn("Call")}
+                className="flex h-28 flex-col items-center justify-center rounded-xl border border-slate-200 transition hover:bg-slate-50"
+              >
                 <lord-icon
                   src="https://cdn.lordicon.com/wtywrnoz.json"
                   trigger="hover"
@@ -158,7 +181,10 @@ function FriendDetails() {
                 <span className="mt-2 text-lg font-medium">Call</span>
               </button>
 
-              <button className="flex h-28 flex-col items-center justify-center rounded-xl border border-slate-200 transition hover:bg-slate-50">
+              <button
+                onClick={() => handleCheckIn("Text")}
+                className="flex h-28 flex-col items-center justify-center rounded-xl border border-slate-200 transition hover:bg-slate-50"
+              >
                 <lord-icon
                   src="https://cdn.lordicon.com/bpptgtfr.json"
                   trigger="hover"
@@ -171,7 +197,10 @@ function FriendDetails() {
                 <span className="mt-2 text-lg font-medium">Text</span>
               </button>
 
-              <button className="flex h-28 flex-col items-center justify-center rounded-xl border border-slate-200 transition hover:bg-slate-50">
+              <button
+                onClick={() => handleCheckIn("Video")}
+                className="flex h-28 flex-col items-center justify-center rounded-xl border border-slate-200 transition hover:bg-slate-50"
+              >
                 <lord-icon
                   src="https://cdn.lordicon.com/zczzhvwa.json"
                   trigger="hover"
