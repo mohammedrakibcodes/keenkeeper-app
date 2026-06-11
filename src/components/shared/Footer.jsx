@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 function Footer() {
   return (
     <footer className="bg-[#245846] text-white">
-      <div className="mx-auto max-w-7xl px-4 py-20 text-center">
+      <div className="mx-auto max-w-7xl px-4 py-10 text-center">
         <h2 className="text-5xl font-extrabold md:text-7xl">
           Keen<span className="font-bold">Keeper</span>
         </h2>
@@ -38,7 +38,7 @@ function Footer() {
           </a>
         </div>
 
-        <div className="mt-16 border-t border-white/10 pt-8">
+        <div className="mt-7 border-t border-white/10 pt-4 ">
           <div className="flex flex-col items-center justify-between gap-4 text-sm text-slate-300 md:flex-row">
             <p>© 2026 KeenKeeper. All rights reserved.</p>
 
