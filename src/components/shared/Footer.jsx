@@ -4,7 +4,9 @@ function Footer() {
   return (
     <footer className="bg-[#245846] text-white">
       <div className="mx-auto max-w-7xl px-4 py-20 text-center">
-        <h2 className="text-5xl font-extrabold md:text-7xl">KeenKeeper</h2>
+        <h2 className="text-5xl font-extrabold md:text-7xl">
+          Keen<span className="font-bold">Keeper</span>
+        </h2>
 
         <p className="mx-auto mt-6 max-w-2xl text-sm text-slate-300 md:text-base">
           Your personal shelf of meaningful connections. Browse, tend, and

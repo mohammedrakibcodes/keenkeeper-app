@@ -26,7 +26,7 @@ function Navbar() {
         <NavLink to="/">
           <h1 className="text-4xl font-extrabold">
             <span className="text-slate-900">Keen</span>
-            <span className="text-[#245846]">Keeper</span>
+            <span className="text-[#245846] font-bold ">Keeper</span>
           </h1>
         </NavLink>
 
