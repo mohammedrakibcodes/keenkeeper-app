@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ava Thompson",
+    "picture": "/images/Image1.jpeg",
+    "email": "ava.thompson@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["college", "friend"],
+    "bio": "Studied together in college and still share book recommendations.",
+    "goal": 14,
+    "next_due_date": "2026-07-09"
+  },
+  {
+    "id": 2,
+    "name": "William Scott",
+    "picture": "/images/Image2.jpeg",
+    "email": "william.scott@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["work", "manager"],
+    "bio": "Former manager who helped shape my professional growth.",
+    "goal": 14,
+    "next_due_date": "2026-07-13"
+  },
+  {
+    "id": 3,
+    "name": "Mia Anderson",
+    "picture": "/images/Image3.jpeg",
+    "email": "mia.anderson@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["travel", "friend"],
+    "bio": "Enjoys spontaneous trips and discovering local cultures.",
+    "goal": 14,
+    "next_due_date": "2026-07-23"
+  },
+  {
+    "id": 4,
+    "name": "Benjamin Harris",
+    "picture": "/images/Image4.jpeg",
+    "email": "benjamin.harris@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["school", "close friend"],
+    "bio": "Longtime friend from high school with whom I share many memories.",
+    "goal": 14,
+    "next_due_date": "2026-07-06"
+  },
+  {
+    "id": 5,
+    "name": "Charlotte Young",
+    "picture": "/images/Image5.jpeg",
+    "email": "charlotte.young@gmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["photography", "friend"],
+    "bio": "Passionate photographer who inspires creative projects.",
+    "goal": 14,
+    "next_due_date": "2026-07-18"
+  },
+  {
+    "id": 6,
+    "name": "Lucas Hall",
+    "picture": "/images/Image6.jpeg",
+    "email": "lucas.hall@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["business", "network"],
+    "bio": "Entrepreneur met through a business conference.",
+    "goal": 14,
+    "next_due_date": "2026-07-11"
+  },
+  {
+    "id": 7,
+    "name": "Amelia Lewis",
+    "picture": "/images/Image7.jpeg",
+    "email": "amelia.lewis@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["music", "friend"],
+    "bio": "Met through a local music club and often attend concerts together.",
+    "goal": 14,
+    "next_due_date": "2026-07-21"
+  },
+  {
+    "id": 8,
+    "name": "Henry Robinson",
+    "picture": "/images/Image8.jpeg",
+    "email": "henry.robinson@gmail.com",
+    "days_since_contact": 19,
+    "status": "overdue",
+    "tags": ["mentor", "career"],
+    "bio": "Provides valuable guidance on leadership and career decisions.",
+    "goal": 14,
+    "next_due_date": "2026-07-07"
+  },
+  {
+    "id": 9,
+    "name": "Evelyn Clark",
+    "picture": "/images/Image9.jpeg",
+    "email": "evelyn.clark@gmail.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["volunteer", "friend"],
+    "bio": "Worked together on several community service projects.",
+    "goal": 14,
+    "next_due_date": "2026-07-17"
+  },
+  {
+    "id": 10,
+    "name": "Alexander King",
+    "picture": "/images/Image10.jpeg",
+    "email": "alexander.king@gmail.com",
+    "days_since_contact": 14,
+    "status": "almost due",
+    "tags": ["startup", "network"],
+    "bio": "Connected through the startup ecosystem and innovation events.",
+    "goal": 14,
+    "next_due_date": "2026-07-10"
+  }
+]
